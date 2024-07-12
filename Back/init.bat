@@ -1,1 +1,0 @@
-java -jar "C:\Users\MyL\Desktop\CAC-Turismo V1\Back\apiturismo-1.0.0.jar"
