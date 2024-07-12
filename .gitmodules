@@ -1,0 +1,3 @@
+[submodule "Front/Proyecto-Turismo"]
+	path = Front/Proyecto-Turismo
+	url = https://github.com/MerAtim/CAC-Turismo.git
