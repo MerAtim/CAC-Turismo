@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="CreatePage.css" rel="stylesheet" />
+  <link rel="./login/login.html" href="" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <title>Create</title>
+
+</head>
+
+<body onload="completarTablaTodosLosLugares()">
+  <main>
+    <div class="titulo">Administrador</div>
+    <section>
+      <h3>Lugares</h3>
+      <table id="tablaLugares">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Ubicacion</th>
+            <th>Categoría</th>
+            <th>Imagen</th>
+            <th><button class="nuevoButton" onclick="agregarNuevoLugar()">Nuevo Lugar</button></th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+<div id="crearModal" class="modal-fondo">
+  <div class="modal" id="modalCrear">
+  </div>
+</div>
+<div id="editarModal" class="modal-fondo">
+  <div class="modal" id="modalEditar">
+  </div>
+</div>
+<div id="eliminarModal" class="modal-fondo">
+  <div class="modal" id="modalEliminar">
+  </div>
+</div>
+<div class="administradorVolver">
+  <a href="/index.html">
+    <img src="/img/assets/backWhite.svg" alt="">
+  </a>
+</div>
+<script src="../index.js"></script>
+<script src="../lugaresService.js"></script>
+
+</html>

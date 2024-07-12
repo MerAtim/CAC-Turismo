@@ -1,0 +1,132 @@
+.footer {
+    background-color: #4f9bb9;
+    padding: 20px 0;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer-links h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 25px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    transition: all 3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    padding-left: 6px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+  }
+  
+  .social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5 ease;
+  }
+  
+  .social-link a:hover {
+    background-color: white;
+    color: rgb(0, 153, 255);
+  }
+  
+  .flechaArriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  .flechaArriba img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer-row {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-links {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .social-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .footer-links ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+    .footer-links ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-links ul {
+        list-style-type: disc;
+        color: white; 
+        padding: 0;
+    }
+  
+    .footer-links ul li a {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 15px;
+        transition: all 0.3s ease;
+    }
+  
+    .footer-links ul li a:hover {
+        padding-left: 6px;
+        text-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+    }
+  }
+  

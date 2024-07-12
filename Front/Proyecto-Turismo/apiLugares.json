@@ -1,0 +1,72 @@
+{
+    "lugares" : [
+        {
+            "nombre": "Bañado La Estrella",
+            "imagen": "img/lugares/bañado-la-estrella.jpg"
+        },
+        {
+            "nombre": "Bosque de los Arrayanes",
+            "imagen": "img/lugares/bosque-de-los-arrayanes.jpg"
+        },
+        {
+            "nombre": "Cabo Vírgenes",
+            "imagen": "img/lugares/cabo-virgenes.jpg"
+        },
+        {
+            "nombre": "Cataratas de Iguazú",
+            "imagen": "img/lugares/cataratas.jpg"
+        },
+        {
+            "nombre": "Cerro Aconcagua",
+            "imagen": "img/lugares/cerro-aconcagua.jpg"
+        },
+        {
+            "nombre": "Glaciar Perito Moreno",
+            "imagen": "img/lugares/glaciar-perito-moreno.jpg"
+        },
+        {
+            "nombre": "Lago Argentino",
+            "imagen": "img/lugares/lago-argentino.jpg"
+        },
+        {
+            "nombre": "Monte Fitz Roy",
+            "imagen": "img/lugares/monte-fitz-roy.jpg"
+        },
+        {
+            "nombre": "Parque Nacional el Palmar",
+            "imagen": "img/lugares/Parque-Nacional-El-Palmar.jpg"
+        },
+        {
+            "nombre": "Parque Nacional Los Glaciares",
+            "imagen": "img/lugares/parque-nacional-los-glaciares-el-calafate.png"
+        },
+        {
+            "nombre": "Paso Los Libertadores",
+            "imagen": "img/lugares/paso-los-libertadores.jpg"
+        },
+        {
+            "nombre": "Península Valdes",
+            "imagen": "img/lugares/peninsula-valdes.jpg"
+        },
+        {
+            "nombre": "Quebrada de Humahuaca",
+            "imagen": "img/lugares/quebrada-de-humahuaca.jpg"
+        },
+        {
+            "nombre": "Salinas Grande",
+            "imagen": "img/lugares/Salinas-Grandes.jpg"
+        },
+        {
+            "nombre": "Talampaya",
+            "imagen": "img/lugares/talampaya.jpg"
+        },
+        {
+            "nombre": "Valle de La Luna",
+            "imagen": "img/lugares/valle-de-la-luna.jpg"
+        },
+        {
+            "nombre": "Volcán Lanin",
+            "imagen": "img/lugares/volcan-lanin.jpg"
+        }
+    ]
+}

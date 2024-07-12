@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.cont-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fc3f7;
+    width: 70%;
+}
+
+.cont-welcome img {
+    height: 250px;
+    width: 250px;
+}
+
+.content-form .Iniciar-sesion .ayuda {
+    margin-bottom: 20px;
+}
+.cont-welcome button {
+    margin-top: 8%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.cont-welcome button:hover {
+    color: #01417e;
+    border: 1px solid #01417e ;
+}
+
+.content-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.content-form h1 {
+    margin-left: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #01417e;
+}
+
+.Iniciar-sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-form {
+    margin-top: 15%;
+}
+
+.info-form label {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.info-form label i {
+    color: #01417e;
+    margin-right: 10px;
+}
+
+.info-form label input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.575); /* Agregamos una sombra */
+}
+
+.info-form label input:focus {
+    outline: none; /* Elimina el contorno predeterminado */
+    border-color: rgb(12, 102, 238); /* Cambia el color del borde al enfocar */
+    background-color: rgba(12, 102, 238, 0.1); /* Cambia el color de fondo al enfocar */
+}
+.icons-form {
+    margin: 15px 0;
+}
+
+.icons-form i {
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(12, 102, 238);
+    margin: 0 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+}
+
+.icons-form i:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-form button {
+    margin-left: 30px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    font-weight: bold;
+    color: #01417e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.575);
+}
+
+.info-form button:hover {
+    background-color: #01417e;
+    color: white;
+}
+
+.confirmar-form {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+.Iniciar-sesion a {
+    margin-top: 10px; /* Añade espacio superior para centrar */
+    margin-left: 30px;
+    margin-bottom: 3px;
+    text-decoration:none;
+    color: rgb(12, 102, 238);
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.buttonConfirm {
+    margin-left: 30px;
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 3px; /* Esquinas redondeadas */
+    background-color: transparent;
+    font-weight: bold;
+    color: #01417e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.575);
+}
+
+.buttonConfirm:hover {
+    background-color: #01417e;
+    color: white;
+}
+
+/* Posicionamiento absoluto para la imagen de "Inicio" */
+.Inicio {
+    position: absolute;
+    top: 5px;
+}
+
+.Inicio img {
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    cursor: pointer;
+}
+
+/* Estilos para pantallas con un ancho máximo de 768px (tablet y dispositivos más pequeños) */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .cont-welcome {
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background-color: #4fc3f7;
+    }
+
+    .content-form {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-form h1 {
+        font-size: 1.5rem;
+    }
+
+    .Iniciar-sesion{
+        width: 100%;
+    }
+
+    .buttonConfirm{
+    margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Iniciar-sesion{
+        width: 100%;
+    }
+}
